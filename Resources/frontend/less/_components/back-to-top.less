@@ -1,0 +1,28 @@
+.page-wrap {
+    .icon-box {
+        display: none;
+
+        &.show {
+            .unitize-margin(0, 20, 20, 0);
+            .unitize(padding-top, 11);
+            .unitize-width(45);
+            .unitize-height(45);
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            display: block;
+            opacity: 0.50;
+            cursor: pointer;
+            text-align: center;
+            background: #484F54;
+
+            i {
+                &:before {
+                    .unitize(font-size, 10);
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
