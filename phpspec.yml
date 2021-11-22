@@ -1,0 +1,6 @@
+suites:
+  default:
+    namespace: nlxBackToTopButton
+    psr4_prefix: nlxBackToTopButton
+    spec_path: ./
+    src_path: ./
