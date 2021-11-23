@@ -1,6 +1,6 @@
 ;(function ($, window) {
 
-    $.plugin('sdScrollTop', {
+    $.plugin('nlxScrollTop', {
         defaults: {
             showCls:       'show',
             exceptElement: 'body',
