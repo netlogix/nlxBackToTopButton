@@ -37,5 +37,5 @@
             me._destroy();
         }
     });
-    window.StateManager.addPlugin('body', 'sdScrollTop');
+    window.StateManager.addPlugin('body', 'nlxScrollTop');
 })(jQuery, window);
