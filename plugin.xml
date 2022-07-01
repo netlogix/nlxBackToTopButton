@@ -3,11 +3,18 @@
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">nlxBackToTopButton</label>
     <label lang="en">nlxBackToTopButton</label>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <copyright>(c) by netlogix GmbH &amp; Co. KG</copyright>
     <license>Proprietary</license>
     <link>https://websolutions.netlogix.de/</link>
     <author>netlogix GmbH &amp; Co. KG</author>
+
+    <description lang="de">
+        Dieses Plugin fügt einen Button hinzu, um nach oben zu scrollen
+    </description>
+    <description lang="en">
+        This plugin adds a button to scroll up
+    </description>
 
     <compatibility minVersion="5.6.0" />
 
@@ -18,5 +25,9 @@
     <changelog version="1.1.0">
         <changes lang="de">Erweiterten Block Namen ändern</changes>
         <changes lang="en">Change extended block name</changes>
+    </changelog>
+    <changelog version="1.2.0">
+        <changes lang="de">Plugin Beschreibung hinzufügen</changes>
+        <changes lang="en">Added plugin description</changes>
     </changelog>
 </plugin>
