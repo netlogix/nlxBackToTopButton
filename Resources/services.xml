@@ -5,7 +5,7 @@
     <services>
         <defaults autowire="true" autoconfigure="true"/>
 
-        <service class="nlxBackToTopButton\Subscribers\TemplateRegistration">
+        <service id="nlxBackToTopButton\Subscribers\TemplateRegistration">
             <argument type="string">%nlx_back_to_top_button.plugin_dir%</argument>
             <argument type="service" id="template"/>
             <tag name="shopware.event_subscriber" />

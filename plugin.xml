@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">nlxBackToTopButton</label>
     <label lang="en">nlxBackToTopButton</label>
-    <version>1.2.0</version>
+    <version>2.0.0</version>
     <copyright>(c) by netlogix GmbH &amp; Co. KG</copyright>
     <license>Proprietary</license>
     <link>https://websolutions.netlogix.de/</link>
@@ -16,7 +16,7 @@
         This plugin adds a button to scroll up
     </description>
 
-    <compatibility minVersion="5.6.0" />
+    <compatibility minVersion="5.7.0" />
 
     <changelog version="1.0.0">
         <changes lang="de">Erste Veröffentlichung</changes>
@@ -29,5 +29,9 @@
     <changelog version="1.2.0">
         <changes lang="de">Plugin Beschreibung hinzufügen</changes>
         <changes lang="en">Added plugin description</changes>
+    </changelog>
+    <changelog version="2.0.0">
+        <changes lang="de">Shopware 5.7.7 Support</changes>
+        <changes lang="en">Shopware 5.7.7 support</changes>
     </changelog>
 </plugin>
